@@ -14,8 +14,15 @@ class NucleotideString:
     
     def base_count(self, base):
         '''Count the number of times the specified
-        base occurs in the sequence.'''
-        return self.sequence.count(base)
+        base occurs in the sequence.
+        >>>test_sequence = NucleotideString("GCCAGC")
+        >>>base_count(G)
+        2'''
+        if base in self.bases:
+            return self.bases[base]
+        else:
+            self.bases[base] = self.sequence.count(base)
+            return self.bases[base]
 
     def gc_content(self):
         g = self.base_count('G')
