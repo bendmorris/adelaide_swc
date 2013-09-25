@@ -1,0 +1,9 @@
+On the command line, go to the folder doctest_example and type:
+python factorial.py
+
+The default behavior of doctest is to return nothing in case all your test cases work.
+If you feel uncomfortable with that, you can type instead
+python factorial.py -v
+
+Also, if would like to read more about how doctest works:
+http://docs.python.org/2/library/doctest.html

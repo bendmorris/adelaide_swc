@@ -1,3 +1,6 @@
+#for more complete usage of doctest, go to:
+#http://docs.python.org/2/library/doctest.html
+
 def factorial(n):
     '''Return the factorial of n, an integer >= 0
     
@@ -20,6 +23,8 @@ def factorial(n):
     return result
 
 if __name__ == '__main__':
+    # when importing this file, the doctests aren't run
+    # but when you run the file with python, the doctests are run
     import doctest
     doctest.testmod()
 
