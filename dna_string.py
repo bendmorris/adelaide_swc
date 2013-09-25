@@ -11,7 +11,6 @@ class NucleotideString:
     
     def __init__(self, sequence):
         self.sequence = sequence
-        self.bases = {}
     
     def base_count(self, base):
         '''Count the number of times the specified
