@@ -1,0 +1,5 @@
+Simple user-friendly tools for unit testing in R:
+http://www.johnmyleswhite.com/notebook/2010/08/17/unit-testing-in-r-the-bare-minimum/
+
+Original testing lessons at the software-carpentry website:
+http://software-carpentry.org/v4/test/
