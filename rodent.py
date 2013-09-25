@@ -28,6 +28,7 @@ class Rodent:
 
     def capture(self, month):
         # we captured this rodent once in this month
+        raise Exception("I AM A BUG!")
         if month not in self.sightings_per_month:
             self.sightings_per_month[month] = 0
         self.sightings_per_month[month] += 1
