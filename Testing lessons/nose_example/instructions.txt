@@ -1,0 +1,8 @@
+On the command line, got to the folder nose_example and type:
+nosetests
+
+Notice that you will need the package nose installed, you can download it from:
+https://pypi.python.org/pypi/nose/
+
+Also, if would like to read more about how nose works its magic:
+http://nose.readthedocs.org/en/latest/usage.html
