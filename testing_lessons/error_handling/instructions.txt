@@ -1,0 +1,2 @@
+On the command line, got to the folder testing_lessons/error_handling and type:
+python dnaContent.py
