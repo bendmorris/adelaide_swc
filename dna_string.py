@@ -4,8 +4,6 @@
 #   G<->C
 #   T<->A
 
-class 
-
 
 class NucleotideString:
     base_complement = {'G': 'C', 'C':'G',
@@ -37,10 +35,14 @@ class NucleotideString:
         return complement
 
 
+# DNAString is a specific instance of
+# NucleotideString that uses the bases
+# GATC
 class DNAString(NucleotideString):
     pass
 
 
+# RNAString uses the bases GAUC
 class RNAString(NucleotideString):
     base_complement = {'G': 'C', 'C':'G',
                        'A': 'U', 'U': 'A'}
