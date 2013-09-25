@@ -1,0 +1,8 @@
+Errors and exceptions in Python:
+http://docs.python.org/2/tutorial/errors.html
+
+Handling errors in Python:
+https://wiki.python.org/moin/HandlingExceptions
+
+Default Error types in Python:
+http://docs.python.org/2/library/exceptions.html
